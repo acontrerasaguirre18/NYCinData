@@ -1,0 +1,300 @@
+/* type faces */
+@font-face {
+    font-family: spike;
+    src:url('VTCSpikeTrial-Bold.otf')
+}
+@font-face {
+    font-family: neue;
+    src:url('TheNeueBlackVF.ttf')
+}
+@font-face {
+    font-family: heavy;
+    src:url('ABCDiatype-Heavy-Trial.otf')
+}
+@font-face {
+    font-family: regular;
+    src:url('ABCDiatype-Regular-Trial.otf')
+}
+@font-face {
+    font-family: lite;
+    src:url('ABCDiatype-Light-Trial.otf')
+}
+@font-face {
+    font-family: carrie;
+    src:url('VTCCarrie-Regular.otf')
+}
+
+
+/* general styling */
+body{ 
+    background-color:white;
+    margin: 1%;
+    padding: 0%;
+}
+section{
+    margin: 0%;
+}
+div{
+    margin: 1%;
+    padding: 0%;
+}
+
+/* fixed header styling and positioning */
+.fixed-header {
+    font-family: 'neue';
+    font-size: 1.5vw;
+    color:black;
+    top: 0%;
+    left: 1%;
+    width: 100%;
+    height: 50px;
+    z-index: 999;
+    background-color: #ffffff;   
+}
+header {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    height: 80px; 
+    transition: height 0.3s ease-in-out; 
+}
+header.fixed {
+    position: fixed;
+    width: 100%;
+    height: 2000px; 
+}
+
+#datePos{
+    margin-left: 31.5vw;
+}
+#span2{
+    margin-left: 24vw;
+}
+
+/* styling for titles, PH, key */
+.titleStyle {
+    color: rgb(0, 0, 0);
+    font-family: 'heavy';
+    font-size: 5vw;
+    line-height: 4.45vw;   
+}
+
+.phStyle{
+    color: rgb(0, 0, 0);
+    font-family: 'lite';
+    font-size: 1.25vw;
+    line-height: auto;
+    letter-spacing: auto;
+}
+
+.keyStyle{
+    color: rgb(0, 0, 0);
+    font-family: 'lite';
+    font-size: 1vw;
+    line-height: auto;
+
+}
+
+
+
+/* GRID SYSTEM 1 formating and element postions */
+#gridSystem1{
+    position: relative;
+    z-index: 1;
+    height: 95vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap:10px;;  
+}
+
+/* Systemic Oppression postion */
+#title1Pos{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+
+}
+
+#ph1Pos{
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#img1{
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+/* Racial Profiling postion */
+#title2Pos{
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    }
+
+#ph2Pos{
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    }
+    
+#img2{
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+} */
+
+/* DisProportionate postion */
+#title3Pos{
+    display: grid;
+    grid-column: 1;
+    grid-row: 3;
+    }
+
+#ph3Pos{
+    display: grid;
+    grid-column: 1;
+    grid-row: 4;
+}
+
+/* GRID SYSTEM 2 formating and element postions */
+ #gridSystem2{
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    }
+
+#keyTitle{
+    color: rgb(0, 0, 0);
+    font-family: 'heavy';
+    font-size: 5vw;
+    line-height: 4.45vw;
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#keyCat1{
+    display: grid;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#keyCat2{
+    display: grid;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#keyCat3{
+    display: grid;
+    grid-column: 4;
+    grid-row: 2;
+}
+
+/* styling for chart */
+
+#div0{
+    background-color:rgb(0, 0, 0);
+    color: #f0f0f0;
+    border-radius: 10px;
+    font-size: 1vw;
+    
+    text-align: center;
+
+}
+#div1{
+    background-color:rgb(0, 0, 0);
+    color: #f0f0f0;
+    border-radius: 10px;
+    font-size: 1vw;
+    text-align: center;
+}
+#div2{
+    background-color:rgb(0, 0, 0);
+    color: #f0f0f0;
+    border-radius: 10px;
+    font-size: 1vw;
+    text-align: center;
+}
+#div3{
+    background-color:rgb(0, 0, 0);
+    color: #f0f0f0;
+    border-radius: 10px;
+    font-size: 1vw;
+    text-align: center;
+}
+#div4{
+    background-color:rgb(0, 0, 0);
+    color: #f0f0f0;
+    border-radius: 10px;
+    font-size: 1vw;
+    text-align: center;
+}
+#div5{
+    background-color:rgb(0, 0, 0);
+    color: #f0f0f0;
+    border-radius: 10px;
+    font-size: .5vw;
+    line-height: .75;
+    text-align: center;
+
+}
+#div6{
+    background-color:rgb(0, 0, 0);
+    color: #f0f0f0;
+    border-radius: 10px;
+    font-size: 1vw;
+    text-align: center;
+}
+
+
+#container{ 
+    display: grid;
+}
+
+#parent > div {
+  flex: 1 1 auto;
+  margin: 10px;
+  
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 1.5vw;
+  overflow: hidden;
+}
+
+#parent > div h1 {
+  font-size: 2vw;
+}
+
+#parent > div p {
+  font-size: 1.2vw;
+}
+
+#parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  #parent > div {
+    position: relative;
+    width: calc(100% / 3 - 10px);
+    height: 200px;
+
+  }
+  
+
+  
